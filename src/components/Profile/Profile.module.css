@@ -24,17 +24,17 @@
   color: gray;
 }
 
-.statsList {
+.statsBlock {
   display: flex;
   padding: 0;
   margin: 0;
   margin-top: 16px;
   justify-content: space-between;
-  background-color: rgb(165, 170, 175);
+  background-color: rgb(150, 157, 163);
   border-top: 2px solid rgb(116, 119, 122);
 }
 
-.statsListItem {
+.statsBlockItem {
   display: flex;
   flex-direction: column;
   width: calc((100% - 72px) / 3);
@@ -42,7 +42,7 @@
   border-right: 2px solid rgb(116, 119, 122);
 }
 
-.statsListItem:last-of-type {
+.statsBlockItem:last-of-type {
   border: none;
 }
 
