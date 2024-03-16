@@ -1,7 +1,7 @@
 .container {
   width: 580px;
   height: 100%;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 5px;
 }
 
@@ -14,8 +14,8 @@
 }
 
 .userName {
-  font-size: 24px;
-  font-weight: 800;
+  font-size: 34px;
+  font-weight: 900;
 }
 
 .userFont {
