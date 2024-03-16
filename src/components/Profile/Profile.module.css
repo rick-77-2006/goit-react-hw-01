@@ -1,5 +1,5 @@
 .container {
-  width: 680px;
+  width: 580px;
   height: 100%;
   border: 3px solid black;
   border-radius: 5px;
@@ -8,8 +8,8 @@
 .userAvatar {
   margin-top: 16px;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   background-color: rgb(43, 43, 43);
 }
 
@@ -30,7 +30,7 @@
   margin: 0;
   margin-top: 16px;
   justify-content: space-between;
-  background-color: rgb(150, 157, 163);
+  background-color: rgb(194, 196, 197);
   border-top: 2px solid rgb(116, 119, 122);
 }
 
@@ -42,7 +42,7 @@
   border-right: 2px solid rgb(116, 119, 122);
 }
 
-.statsBlockItem:last-of-type {
+.statsListItem:last-of-type {
   border: none;
 }
 
