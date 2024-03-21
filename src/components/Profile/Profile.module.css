@@ -1,8 +1,8 @@
 .container {
-  width: 100%;
+  width: 580px;
   height: 100%;
-  border: 3px solid black;
-  border-radius: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .userAvatar {
@@ -14,35 +14,41 @@
 }
 
 .userName {
-  font-size: 44px;
-  font-weight: 800;
+  font-size: 34px;
+  font-weight: 900;
 }
 
 .userFont {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 500;
   color: gray;
 }
 
-.statsList {
+.statsBlock {
   display: flex;
+  padding: 0;
   margin: 0;
   margin-top: 16px;
   justify-content: space-between;
-  background-color: rgb(165, 170, 175);
-  border-top: 3px solid rgb(116, 119, 122);
+  background-color: rgb(194, 196, 197);
+  border-top: 2px solid rgb(116, 119, 122);
 }
 
-.statsListItem {
+.statsBlockItem {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding: 16px 10px;
+  width: calc((100% - 72px) / 3);
+  padding: 16px 8px;
   border-right: 2px solid rgb(116, 119, 122);
 }
 
+.statsListItem:last-of-type {
+  border: none;
+}
+
 .listTitle {
-  font-size: 25px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .listAmount {
